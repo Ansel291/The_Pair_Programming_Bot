@@ -1,15 +1,101 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+/*div {
+  border: 1px solid #f0f;
+}*/
+
+
+body {
+  background-color: black;
+}
+
+#container {
+  text-align:center;
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+
+}
+
+.linkleft {
+  text-align: left;
+  margin-top: 200px;
+  color: green;
+}
+
+.linkleft a:link {
+  color: green;
+}
+
+.linkright {
+  text-align: right;
+
+}
+
+.linkright a:link {
+  color: gray;
+}
+
+
+.text {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.beck_text {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 180px;
+  text-align: center;
+  line-height: 120%;
+  color: white;
+}
+
+a {
+  color: #080;
+  text-decoration: none;
+}
+
+.beck_citation {
+  color: gray;
+  font-size: 20px;
+}
+.buttons {
+  margin-top: 30px;
+}
+
+.btn-large {
+  margin: 0 15px;
+}
+
+.btn-success {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+  background-color: #5bb75b;
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn-large {
+  padding: 11px 19px;
+  font-size: 17.5px;
+  border-radius: 6px;
+}
+
+.btn-danger {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
